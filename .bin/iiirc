@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ii -s irc.oftc.net -n derrickshanghai -f "Derrick Cope" &
+#ii -s irc.oftc.net -n nion -f "Nico Golde" &
+#ii -s irc.gamesurge.net -n nion &
+#sleep 10
+
+#echo "/msg nickserv identify rdc681215"> ~/irc/irc.freenode.net/in
+#echo "/m nickserv identify notmypwd"> irc.oftc.net/in
+#echo "/j #debian.de"> irc.oftc.net/in
+#echo "/j #wmii"> irc.oftc.net/in
+sleep 10 
+
+#echo "/join #archlinux"> ~/irc/irc.freenode.net/in

@@ -1,0 +1,4 @@
+#!/bin/bash
+conky -c ~/.conky/.conkyrc_com &
+conky -c ~/.conky/.conkyrc_todo &
+

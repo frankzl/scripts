@@ -1,0 +1,20 @@
+# a comment
+max-items        100 # such comments are possible, too
+#browser          lynx
+show-read-feeds   no
+#unbind-key       R
+bind-key         RIGHT    open
+bind-key	 LEFT     quit
+
+#Colors
+#color background          white   black
+#color listnormal          white   black
+#color listfocus           yellow  blue   bold
+color  listnormal_unread   blue	   default  bold
+color listfocus_unread     white   blue   bold
+#color info                yellow  blue   bold
+#color article             white   black
+
+#podbeuter
+player		mplayer
+download-path 	/home/derrick/Music/podcasts

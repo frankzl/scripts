@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#sync podcasts     
+
+if [ -e /tmp/syncpod.lock ]
+then
+    exit
+else
+    touch /tmp/syncpod.lock
+    rsync -vrP6 --delete root@162.243.234.81:~/podcasts/* ~/music/podcasts/
+    rm /tmp/syncpod.lock
+fi
+

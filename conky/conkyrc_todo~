@@ -1,0 +1,58 @@
+background no
+font deja vu sans:condensed:size=10
+use_xft yes
+xftalpha 0.9
+update_interval 3.0
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_argb_visual yes
+own_window_argb_value 255
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 180 5
+maximum_width 200
+draw_shades yes
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color cccccc
+default_shade_color black
+default_outline_color green
+alignment top_right
+gap_x 200
+gap_y 35
+no_buffers yes
+uppercase no
+cpu_avg_samples 4
+override_utf8_locale no
+uppercase no
+
+TEXT
+${color #D70A53}
+
+#Weather
+#${execpi 300 ~/scripts/weather.sh "ASI|CN|CH024|SHANGHAI"}
+
+#Todo
+#${execpi 300 ~/.todo/todo.sh -p ls}
+#${execpi 300 head -n 20 ~/.todo/todo.txt}
+ 
+#MAIL INFO
+#${execpi 200 curl -su cope.derrick:pilates681215 https://mail.google.com/mail/feed/atom > ~/gmailout.txt}
+#${execpi 300 tail -n +5 ~/gmailout.txt | head -n +1 | grep fullcount | sed 's/<[^0-9]*>//g'}
+
+#Mail
+#Derrick Mail: ${pop3_unseen pop3.pilatesshanghai.com derrick@pilatesshanghai.com pilates681215}
+#Info Mail: ${pop3_unseen pop3.pilatesshanghai.com info@pilatesshanghai.com pilates681215}
+
+#sed -n '5,20p'  ~/gmailout.txt}
+#${curl -su cope.derrick:pilates681215 https://mail.google.com/mail/feed/atom}
+#${echo atomline}
+#${execpi 300 ~/gmailscript.sh}
+#${hr}
+#Inbox 
+#${execpi 300 ~/.conky/checkgmail1.sh}
+#RSS${rss http://www.pilatesshanghai.com/feed=rss2 item_titles 4}
+

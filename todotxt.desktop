@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=todotxt
+Comment=todo.txt list
+Exec=/home/derrick/scripts/todotxt/todo.sh
+Icon=text-editor
+StartupNotify=true
+Terminal=true
+Hidden=false
+X-GNOME-Autostart-enabled=false
+X-KeepTerminal=true
+Path=
+Comment[en_US]=todotxt

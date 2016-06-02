@@ -1,0 +1,6 @@
+#!/bin/bash
+#vimpedal
+#~/.bin/
+sudo killall actkbd
+xinput set-prop 9 "Device Enabled" 0
+sudo actkbd -d /dev/input/event1 -D

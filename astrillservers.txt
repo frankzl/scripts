@@ -1,0 +1,103 @@
+Shared servers
+StatusServerOpenVPNPPTPL2TP/IPSecCisco IPSecSSTPIKEv2Address
+      USA - Denver    P2P allowed       DN.ASTRILL.NET
+      USA - West Coast    P2P allowed       GCO.ASTRILL.NET
+      USA - Dallas 1    P2P allowed       GTX1.ASTRILL.NET
+      USA - Fremont    P2P allowed       GFM.ASTRILL.NET
+      USA - Los Angeles 1    P2P allowed       GLA1.ASTRILL.NET
+      USA - Los Angeles 2       GLA2.ASTRILL.NET
+      USA - Los Angeles 3    P2P allowed       GLA3.ASTRILL.NET
+      USA - Los Angeles 4    P2P allowed       GLA4.ASTRILL.NET
+      Los Angeles (China)    P2P allowed       LACN.ASTRILL.NET
+      Los Angeles (Business)       GLAP.ASTRILL.NET
+      China Telecom (Business)       US-CT.ASTRILL.NET
+      USA - Seattle    P2P allowed       GST.ASTRILL.NET
+      USA - Salt Lake City    P2P allowed       SLC.ASTRILL.NET
+      USA - Phoenix 1       PX.ASTRILL.NET
+      USA - Phoenix 2    P2P allowed       PX2.ASTRILL.NET
+      USA - Portland       PT.ASTRILL.NET
+      USA - Dallas 2    P2P allowed       GTX2.ASTRILL.NET
+      USA - Kansas       KA.ASTRILL.NET
+      USA - Washington    P2P allowed       WA.ASTRILL.NET
+      USA - New York       GNY.ASTRILL.NET
+      USA - Chicago       GCH.ASTRILL.NET
+      USA - Atlanta       ATL.ASTRILL.NET
+      USA - Miami    P2P allowed       MI.ASTRILL.NET
+      USA - Las Vegas    P2P allowed       LV.ASTRILL.NET
+      USA - St Louis    P2P allowed       SL.ASTRILL.NET
+      USA - Europe Optimized    P2P allowed       FNL.ASTRILL.NET
+      Canada 1    P2P allowed       CA1.ASTRILL.NET
+      Canada 2    P2P allowed       CA2.ASTRILL.NET
+      Canada 3       CA3.ASTRILL.NET
+      United Kingdom 1    P2P allowed       UK1.ASTRILL.NET
+      United Kingdom 2    P2P allowed       UK2.ASTRILL.NET
+      United Kingdom 3       UK3.ASTRILL.NET
+      United Kingdom 4       UK4.ASTRILL.NET
+      United Kingdom 5       UK5.ASTRILL.NET
+      United Kingdom 6       UK6.ASTRILL.NET
+      Netherlands    P2P allowed       NL.ASTRILL.NET
+      Germany 1       DE1.ASTRILL.NET
+      Germany 2       DE2.ASTRILL.NET
+      Germany 3       DE3.ASTRILL.NET
+      France 1    P2P allowed       FR1.ASTRILL.NET
+      France 2       FR2.ASTRILL.NET
+      France 3    P2P allowed       FR3.ASTRILL.NET
+      Spain       ES.ASTRILL.NET
+      Portugal 1       PG.ASTRILL.NET
+      Italy       IT.ASTRILL.NET
+      Switzerland       SW.ASTRILL.NET
+      Sweden    P2P allowed       SE.ASTRILL.NET
+      Sweden 2    P2P allowed       SE2.ASTRILL.NET
+      Sweden 3    P2P allowed       SE3.ASTRILL.NET
+      Luxembourg    P2P allowed       LX.ASTRILL.NET
+      Norway       NO.ASTRILL.NET
+      Denmark       DK.ASTRILL.NET
+      Belgium       BE.ASTRILL.NET
+      Finland 1       FI.ASTRILL.NET
+      Finland 2       FI2.ASTRILL.NET
+      Finland 3       FI3.ASTRILL.NET
+      Ireland 2       IE2.ASTRILL.NET
+      Ireland 3       IE.ASTRILL.NET
+      Austria       AT.ASTRILL.NET
+      Czech Republic 1       CZ.ASTRILL.NET
+      Czech Republic 2       USEU.ASTRILL.NET
+      Slovakia       SK1.ASTRILL.NET
+      Poland       PL.ASTRILL.NET
+      Hungary       HU1.ASTRILL.NET
+      Romania    P2P allowed       RO.ASTRILL.NET
+      Bulgaria    P2P allowed       BG.ASTRILL.NET
+      Moldova    P2P allowed       MD.ASTRILL.NET
+      Lithuania    P2P allowed       LT.ASTRILL.NET
+      Ukraine       UE.ASTRILL.NET
+      Russia 1       RU.ASTRILL.NET
+      Russia 2       RU2.ASTRILL.NET
+      Turkey       TR.ASTRILL.NET
+      Greece       GR.ASTRILL.NET
+      Australia 1    P2P allowed       AU1.ASTRILL.NET
+      Australia 3       AU3.ASTRILL.NET
+      Australia 4       AU4.ASTRILL.NET
+      New Zealand       NZ.ASTRILL.NET
+      Japan       JP.ASTRILL.NET
+      Japan 2       JP2.ASTRILL.NET
+      China 2 (No Facebook)       GCN.ASTRILL.NET
+      Hong Kong 1       HK1.ASTRILL.NET
+      Hong Kong 2       HK2.ASTRILL.NET
+      Hong Kong 3       HK3.ASTRILL.NET
+      Hong Kong 4       HK4.ASTRILL.NET
+      Korea 1       KO.ASTRILL.NET
+      Korea 2       KO2.ASTRILL.NET
+      Taiwan       TW.ASTRILL.NET
+      Singapore 1 (USA)       GSG.ASTRILL.NET
+      Singapore 2       GSG2.ASTRILL.NET
+      India       IN.ASTRILL.NET
+      Malaysia       MY.ASTRILL.NET
+      Philippines       PH.ASTRILL.NET
+      Thailand       TH.ASTRILL.NET
+      Vietnam       VN.ASTRILL.NET
+      Israel       IL.ASTRILL.NET
+      Panama       PA.ASTRILL.NET
+      Brazil 1       BR.ASTRILL.NET
+      Brazil 2       BR2.ASTRILL.NET
+      Argentina       AR.ASTRILL.NET
+      Egypt       EG.ASTRILL.NET
+      South Africa       ZA.ASTRILL.NET

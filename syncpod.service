@@ -1,0 +1,7 @@
+[Unit]
+Description=syncpod
+
+[Service]
+Type=simple
+User=derrick
+ExecStart=/home/derrick/.bin/syncpod

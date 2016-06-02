@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=ffplay
+Comment=front end for mmpeg
+Exec=ffplay
+Icon=video-x-generic
+StartupNotify=false
+Terminal=true
+Hidden=false
+X-GNOME-Autostart-enabled=false
