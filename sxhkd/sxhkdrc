@@ -1,0 +1,106 @@
+super + shift + Escape
+    pkill xinit
+
+super + Return
+	st
+
+super + space
+	dmenu_run
+
+super + shift + Return
+	killw $(pfw); \
+    focus.pl prev
+
+super + shift + x
+    pkill -USR1 -x sxhkd
+
+#window mvmnt hotkeys
+
+alt + shift + Up 
+    fullscreen.pl           
+
+alt + shift + Down
+    quarterscreen.pl
+
+alt + shift + Right
+    nextmon.pl
+
+alt + shift + Left
+    prevmon.pl
+
+alt + shift + 1
+    wtp 20 40 920 1020 $(pfw)
+
+alt + shift + 2
+    wtp 970 40 920 500 $(pfw)
+
+alt + shift + 3
+    wtp 970 560  920 500 $(pfw)
+
+alt + shift + 4
+    wtp 1940 40 920 1020 $(pfw)
+
+alt + shift + 5
+    wtp 2890 40 920 500 $(pfw)
+
+alt + shift + 6
+    wtp 2890 560 920 500 $(pfw)
+
+
+super + shift + l
+	wrs 10 0 $(pfw)
+
+super + shift + h
+	wrs -10 0 $(pfw)
+
+super + shift + k
+	wrs 0 -10 $(pfw)
+
+super + shift + j
+   wrs 0 10 $(pfw)
+
+
+alt + Tab
+    focus.pl next  
+
+alt + Escape
+    focus.pl prev
+
+alt + {h,j,k,l}
+    closest.sh {h, j, k, l}
+
+alt + shift + j
+    wmv 0 10 $(pfw)
+
+alt + shift + k
+    wmv 0 -10 $(pfw)
+
+alt + shift + l
+	wmv 10 0 $(pfw)
+
+alt + shift + h
+	wmv -10 0 $(pfw)
+
+
+#using the mouse
+
+# move windows with the mouse
+alt + shift + w 
+    xmmv $(pfw)
+
+# focus on clicked window
+~button1
+    focus.sh $(get_window.sh)
+
+
+#super + b
+#    firefox
+
+#super + {f,t,d}
+#    {pcmanfm,transmission-gtk,lodraw}
+
+alt + Print
+    /home/derrick/scripts/screenshot.sh
+
+
+    
