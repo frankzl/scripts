@@ -1,11 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 #
 # wildefyr - 2015 (c) wtfpl
 # toggle delete lock for current window
 
 usage() {
     echo "usage: $(basename $0) <lock|unlock|toggle|status> <wid>"
- 
     exit 1
 }
 
@@ -14,11 +13,9 @@ wid=$(pfw)
 case $2 in
     0x*)
         wid=$2
-      
         ;;
     *)
         usage
- 
         ;;
 esac
 

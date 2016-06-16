@@ -18,7 +18,7 @@ $MSH = 1080;
 $PFW = `pfw`;
 
 $PWX = `wattr x $PFW`;
-$SX = $MSW + 1 + $GAP;
+$SX = $MSW + $GAP;
 $SY = $PANEL + $GAP;
 $SW = $MSW - $GAP * 2;
 $SH = $MSH - $PANEL - $GAP * 2;

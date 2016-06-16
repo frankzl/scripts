@@ -80,6 +80,6 @@ if ($aurg eq "next") {
     chomp($nexty = `wattr y $aurg`);
     `wtf $aurg`;
     `chwso -r $aurg`;
-    `wmp $nextx $nexty`;
+##    `wmp $nextx $nexty`;      #comment out for sloppy focus when @ARGV is window id
     `chwb -c 0x1793d1 -s 2 $aurg`;
 }

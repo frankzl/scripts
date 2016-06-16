@@ -8,7 +8,7 @@
 CUR=$(pfw)
 
 usage() {
-     echo "usage: $(basename $0) <direction>" >&2
+    echo "usage: $(basename $0) <direction>" >&2
     exit 1
 }
 
@@ -37,4 +37,4 @@ case $1 in
     *)              usage             ;;
 esac
 
-test ! -z "$wid" && focus.pl "$wid"
+test ! -z "$wid" && focus.sh "$wid"
