@@ -8,7 +8,7 @@ lost+found
 music/podcasts
 #music
 #AUR
-#downloads
+downloads
 scripts/.git
 scripts/.config
 scripts/.mutt
